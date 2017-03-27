@@ -142,8 +142,8 @@
 
 <figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> mixed= d3.daisy.layout.scatter()</div><div class="line">  .container(<span class="string">'#content4'</span>)</div><div class="line">  .data(dataset)</div><div class="line">  <span class="comment">//.size([2,24])default는 [3, 12]가 적용된다</span></div><div class="line">  .dimensions([<span class="string">'c'</span>])</div><div class="line">  .measures([<span class="string">'x'</span>,<span class="string">'y'</span>, <span class="string">'z'</span>])</div><div class="line">  .axis(<span class="string">'x'</span>).axis(<span class="string">'y'</span>)</div><div class="line">  .label(<span class="literal">true</span>);</div><div class="line">mixed.render();</div></pre></td></tr></table></figure>
 <script src="/assets/script/vendor.js"></script>
-<script src="/assets/script/daisy.min.js"></script>
-<script src="/assets/script/daisy.layout.min.js"></script>
+<script src="/assets/script/daisy.js"></script>
+<script src="/assets/script/daisy.layout.js"></script>
 <script src="/assets/script/test.layout.scatter.js"></script>
 
 
